@@ -34,6 +34,8 @@ else
 fi
 indent "Version $VERSION"
 
+VERSION = "102.0.5005.61"
+
 topic "Downloading chromedriver v$VERSION"
 ZIP_URL="https://chromedriver.storage.googleapis.com/$VERSION/chromedriver_linux64.zip"
 ZIP_LOCATION="/tmp/chromedriver.zip"
